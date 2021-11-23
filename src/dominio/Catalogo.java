@@ -2,28 +2,28 @@ package dominio;
 
 import java.util.ArrayList;
 
-public class Libreta{
-	private ArrayList<Contacto> contactos = new ArrayList<>();
+public class Catalogo{
+	private ArrayList<Comida> comidas = new ArrayList<>();
 
-	public ArrayList<Contacto> getContactos(){
-		return contactos;
+	public ArrayList<Comida> getComidas(){
+		return comidas;
 	}
 
-	public void setContactos(ArrayList<Contacto> contactos){
-		this.contactos = contactos;
+	public void setComidas(ArrayList<Comida> comidas){
+		this.comidas = comidas;
 	}
 
-	public void annadirContacto(Contacto contacto){
-		contactos.add(contacto);
+	public void annadirComida(Comida comida){
+		comidas.add(comida);
 	}
 
 	public String toString(){
 		StringBuilder mensaje = new StringBuilder();
-		if(contactos.size() == 0){
-			mensaje.append("La libreta está vacía");
+		if(comidas.size() == 0){
+			mensaje.append("El catálogo está vacío");
 		} else {
-			for(Contacto contacto: contactos){
-				mensaje.append(contacto + "\n");
+			for(Comida comida: comidas){
+				mensaje.append(comida + "\n");
 			}
 		}
 		return mensaje.toString();
