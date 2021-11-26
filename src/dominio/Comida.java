@@ -4,6 +4,8 @@ public class Comida{
 	private String nombre;
 	private String precio;
 	private String cantidad;
+	// hacer private del guion
+	
 
 	public Comida(){
 		nombre = "";
@@ -37,7 +39,9 @@ public class Comida{
 	}
 
 	public String toString(){
-		return "- " + nombre + " " + precio + "€ " + cantidad;
+		String mensaje = "";
+		mensaje += "  " + nombre + "          " + precio + "           " + cantidad;
+		return mensaje;
 	}
 
 }

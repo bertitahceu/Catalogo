@@ -1,1 +1,4 @@
-- Manzana 1€ 15
+  manzanas          1           15
+  platanos          2           10
+  peras          3           5
+  manzanas          1           15

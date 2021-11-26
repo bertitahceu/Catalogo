@@ -18,7 +18,8 @@ public class Interfaz{
 			catalogo.annadirComida(comida);
 			guardarCatalogo(catalogo);
 		} else if(palabras[0].equals("list")){
-			System.out.println("Estos son los productos del catálogo:");
+			System.out.println("  PRODUCTOS   |  PRECIO  |  CANTIDAD");
+			System.out.println("--------------------------------------");
 			System.out.println(catalogo);
 		} else if(palabras[0].equals("help")){
 			printHelp();
