@@ -6,14 +6,14 @@ import java.io.File;
 import java.util.Scanner;
 import java.io.FileWriter;
 import java.io.IOException;
-
+import java.lang.NumberFormatException;
 public class Interfaz{
 	private static String NOMBRE_FICHERO = "catalogo.txt";
 	public static void procesarPeticion(String sentencia){
 		String[] palabras = sentencia.split(" ");
 		Catalogo catalogo = inicializarCatalogo();
 		if(palabras[0].equals("add") && palabras.length == 4){
-			Comida comida = new Comida(palabras[1], palabras[2], palabras[3]);
+			Comida comida = new Comida(palabras[1], Float.parseFloat(palabras[2]), Integer.parseInt(palabras[3]));
 			System.out.println(comida);
 			catalogo.annadirComida(comida);
 			guardarCatalogo(catalogo);
@@ -34,17 +34,20 @@ public class Interfaz{
 			File file = new File(NOMBRE_FICHERO);
 			Scanner sc = new Scanner(file);
 			while(sc.hasNext()){
-				String nombre = sc.next();
-				String precio = sc.next();
-				String cantidad = sc.next();
-				Comida comida = new Comida(nombre, precio, cantidad);
-				catalogo.annadirComida(comida);
+			String nombre = sc.next();
+			String str = sc.next();
+			float precio = Float.parseFloat(str);
+			String cantidad = sc.next();
+			int cant = Integer.parseInt(cantidad);
+			Comida comida = new Comida(nombre, precio, cant);
+			catalogo.annadirComida(comida);
 			}
 			sc.close();
 		} catch (FileNotFoundException e){
-
-		}
-		return catalogo;
+		
+		} /*catch (NumberFormatException f){
+			System.out.println("Por favor use un punto y no una coma subnormal");
+		}*/return catalogo;
 	}
 
 	private static void guardarCatalogo(Catalogo catalogo){

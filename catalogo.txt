@@ -1,4 +1,2 @@
-  manzanas          1           15
-  platanos          2           10
-  peras          3           5
-  manzanas          1           15
+  platanos         0.9         14
+  manzanas         1.2         5

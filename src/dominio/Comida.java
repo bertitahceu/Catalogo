@@ -2,21 +2,19 @@ package dominio;
 
 public class Comida{
 	private String nombre;
-	private String precio;
-	private String cantidad;
-	// hacer private del guion
+	private float precio;
+	private int cant;
 	
-
 	public Comida(){
 		nombre = "";
-		precio = "";
-		cantidad = "";
+		//precio;
+		//cantidad;
 	}
 
-	public Comida(String nombre, String precio, String cantidad){
+	public Comida(String nombre, float precio, int cant){
 		this.nombre = nombre;
 		this.precio = precio;
-		this.cantidad = cantidad;
+		this.cant = cant;
 	}
 
 	public String getNombre(){
@@ -25,22 +23,22 @@ public class Comida{
 	public void setNombre(String nombre){
 		this.nombre = nombre;
 	}
-	public String getPrecio(){
+	public float getPrecio(){
 		return precio;
 	}
-	public void setPrecio(String precio){
+	public void setPrecio(float precio){
 		this.precio = precio;
 	}
-	public String getCantidad(){
-		return cantidad;
+	public int getCant(){
+		return cant;
 	}
-	public void setCantidad(String cantidad){
-		this.cantidad = cantidad;
+	public void setCant(int cant){
+		this.cant = cant;
 	}
 
 	public String toString(){
 		String mensaje = "";
-		mensaje += "  " + nombre + "          " + precio + "           " + cantidad;
+		mensaje += "  " + nombre + "         " + precio + "         " + cant;
 		return mensaje;
 	}
 
