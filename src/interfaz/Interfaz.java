@@ -63,10 +63,10 @@ public class Interfaz{
 
 	private static void printHelp(){
 		String ayuda = "Las operaciones posibles son las siguientes:\n"+
-			"- Añadir producto: ‘java -jar catalogo.jar add <nombre> <teléfono> <cantidad>‘\n"+
+			"- Añadir producto: ‘java -jar catalogo.jar add <nombre> <precio> <cantidad>‘\n"+
 			"Por ejemplo,\n"+
 			"\tjava -jar catalogo.jar add manzana 1 12\n"+
-			"- Mostrar contactos:\n"+
+			"- Mostrar catalogo:\n"+
 			"\tjava -jar catalogo.jar list\n"+
 			"- Mostrar esta ayuda:\n"+
 			"\tjava -jar catalogo.jar help";

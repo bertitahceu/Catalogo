@@ -1,2 +1,0 @@
-  platanos         0.9         14
-  manzanas         1.2         5
