@@ -7,8 +7,15 @@ import java.util.Scanner;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.lang.NumberFormatException;
+
+/** Esta clase define el interfaz del programa
+ * @author Tomas Machin, Alberto Ruiz, Alfredo Martinez, Francisco Rodriguez
+ */
 public class Interfaz{
 	private static String NOMBRE_FICHERO = "catalogo.txt";
+	/** Define un metodo para separar un array de palabras por espacios
+	 * @param Separacion de un array por espacios
+	 */
 	public static void procesarPeticion(String sentencia){
 		String[] palabras = sentencia.split(" ");
 		Catalogo catalogo = inicializarCatalogo();
@@ -27,7 +34,9 @@ public class Interfaz{
 			printHelp();
 		}
 	}
-
+	/** Define la lectura del catalogo 
+	 * @param lectura del catalogo
+	 */
 	private static Catalogo inicializarCatalogo(){
 		Catalogo catalogo = new Catalogo();
 		try{
@@ -49,7 +58,10 @@ public class Interfaz{
 			System.out.println("Por favor use un punto y no una coma subnormal");
 		}*/return catalogo;
 	}
-
+	
+	/** Almacena los datos del catalogo
+	 *@param datos del catalogo
+	 */
 	private static void guardarCatalogo(Catalogo catalogo){
 		try{
 			FileWriter fw = new FileWriter(NOMBRE_FICHERO);
@@ -60,7 +72,9 @@ public class Interfaz{
 			System.out.println("Ha habido un error al guardar el fichero");
 		}
 	}
-
+	/** Expone las ayudas del programa
+	 * @param ayudas del programa
+	 */
 	private static void printHelp(){
 		String ayuda = "Las operaciones posibles son las siguientes:\n"+
 			"- Añadir producto: ‘java -jar catalogo.jar add <nombre> <precio> <cantidad>‘\n"+
