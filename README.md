@@ -3,8 +3,8 @@
 
 	- Tomás Machín
 	- Albeto Ruiz
-	- Alfredo 
+	- Alfredo Martinez	
 	- Francisco Rodrdiguez
-	
-	LINK AL DIAGRAMA DEL PROGRAMA:
+
+
 	
