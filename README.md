@@ -7,5 +7,4 @@
 	- Francisco Rodrdiguez
 	
 	LINK AL DIAGRAMA DEL PROGRAMA:
-
-	(LINK)
+	
