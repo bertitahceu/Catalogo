@@ -43,6 +43,9 @@ public class Comida{
 	public int getCant(){
 		return cant;
 	}
+	/** Metodo para cambiar la cantidad querida del producto
+	 * @param nueva cantidad del producto 
+	 */
 	public void setCant(int cant){
 		this.cant = cant;
 	}
