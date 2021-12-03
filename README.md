@@ -4,7 +4,7 @@
 	- Tomás Machín
 	- Albeto Ruiz
 	- Alfredo Martinez	
-	- Francisco Rodrdiguez
+	- Francisco Rodriguez
 
 
 	
