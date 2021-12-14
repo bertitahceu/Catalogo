@@ -6,6 +6,7 @@
 #####	- __Albeto Ruiz__
 #####	- __Alfredo Martinez__	
 #####	- __Francisco Rodriguez__
+___
 
 //necesario poner breves anotaciones del programa para los usuarios y desarrolladores ademas de adjuntar una foto del diagrama.
 
