@@ -12,8 +12,6 @@ public class Comida{
 	 */
 	public Comida(){
 		nombre = "";
-		//precio;
-		//cantidad;
 	}
 
 	public Comida(String nombre, float precio, int cant){
@@ -52,7 +50,7 @@ public class Comida{
 
 	public String toString(){
 		String mensaje = "";
-		mensaje += "  " + nombre + "         " + precio + "         " + cant;
+		mensaje += "  " + nombre + "        " + precio + "        " + cant;
 		return mensaje;
 	}
 

@@ -43,20 +43,23 @@ public class Interfaz{
 			File file = new File(NOMBRE_FICHERO);
 			Scanner sc = new Scanner(file);
 			while(sc.hasNext()){
-			String nombre = sc.next();
-			String str = sc.next();
-			float precio = Float.parseFloat(str);
-			String cantidad = sc.next();
-			int cant = Integer.parseInt(cantidad);
-			Comida comida = new Comida(nombre, precio, cant);
-			catalogo.annadirComida(comida);
+				String nombre = sc.next();
+				String str = sc.next();
+				try{	
+					float precio = Float.parseFloat(str);
+				} catch (NumberFormatException nfe){
+					System.out.println("Por favor introduzca un número como segunda ""palabra""");
+					sc.next();
+				}
+
+				String cantidad = sc.next();
+				int cant = Integer.parseInt(cantidad);
+				Comida comida = new Comida(nombre, precio, cant);
+				catalogo.annadirComida(comida);
 			}
 			sc.close();
-		} catch (FileNotFoundException e){
-		
-		} /*catch (NumberFormatException f){
-			System.out.println("Por favor use un punto y no una coma subnormal");
-		}*/return catalogo;
+		} catch (FileNotFoundException e){}
+		return catalogo;
 	}
 	
 	/** Almacena los datos del catalogo

@@ -1,5 +1,4 @@
-
-:package dominio;
+package dominio;
 
 import java.util.ArrayList;
 /** Esta clase define un catalogo de los productos queridos
