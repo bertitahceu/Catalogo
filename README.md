@@ -1,6 +1,6 @@
 # README #
 
-####__INTEGRANTES DEL GRUPO:__ 
+####INTEGRANTES DEL GRUPO: 
 	
 	- Tomás Machín
 	- Albeto Ruiz
