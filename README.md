@@ -7,6 +7,7 @@
 #####	- __Alfredo Martinez__	
 #####	- __Francisco Rodriguez__
 ___
+para un tutorial del markdown: [markdown](https://markdown.es/sintaxis-markdown/#codigo)
 
 para poder hacer citas teneis que poner >cita> y decis lo que necesiteis si quereis citar algo
 
