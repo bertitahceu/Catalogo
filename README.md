@@ -14,9 +14,9 @@ ___
 3. Introduzca `make -jar` para generar un fichero jar y poder empezar a utilizar el programa.  
 ___
 * Para utilizar el programa:  
-  1. Introduzca `java -jar catalogo.jar add <producto> <precio> <cantidad>` para añadir un objeto al catalogo.  
-  2. Introduzca `java -jar catalogo.jar list` para mostrar el catálogo.  
-  3. Introduzca `java -jar catalogo.jar help` para mostrar la ayuda.  
+  1. Introduzca `java -jar catalogo.jar add <producto> <precio> <cantidad>` para añadir un **objeto** al catalogo.  
+  2. Introduzca `java -jar catalogo.jar list` para mostrar el **catálogo**.  
+  3. Introduzca `java -jar catalogo.jar help` para mostrar la **ayuda**.  
 ___
 para un tutorial del markdown: [markdown](https://markdown.es/sintaxis-markdown/#codigo)
 
