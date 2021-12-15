@@ -23,4 +23,4 @@ o tmb podeis ponerlo entre acentos graves `codigo`
 
 para marcar algo en cursiva podeis o ponerlo entre *(loqsea)* o _(loqsea)_ y negrita haciendolos dobles **(loqsea)** o __(loqsea)__ si quereis ambos a la ves teneis q ponerlo 3 veces a cada lado
 
-![Diagrama UML](/c/Users/machi/workspace/catalogo/Diagramas/diagramavd.html "Diagramas")
+![Diagrama UML](file:///C:/Users/machi/workspace/catalogo/Diagramas/class%20diagram.png "Diagramas")
