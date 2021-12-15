@@ -21,4 +21,12 @@ ___
   **3.** Introduzca `java -jar catalogo.jar help` para mostrar la **ayuda**.  
 ___
 ## Diagrama
-![Diagrama UML]('/c/Users/machi/workspace/catalogo/Diagramas/class diagram.png' "Diagramas")
+![Diagrama UML]('/c/Users/machi/workspace/catalogo/Diagramas/class diagram.png' "Diagramas")  
+## Renuncias
+* Este es un ejemplo de inicio.  
+* Es posible que el repositorio no se mantenga de forma activa.  
+## Licencia
+MIT  
+El código de este repositorio está cubierto por la licencia incluida.  
+## Apoyo
+Ingrese un problema en el repositorio para cualquier pregunta o problema.  
