@@ -21,7 +21,7 @@ ___
   **3.** Introduzca `java -jar catalogo.jar help` para mostrar la **ayuda**.  
 ___
 ## Diagrama
-![Diagrama UML]('Diagramas/class diagram.png' "Diagramas")  
+![Diagrama UML]('Diagramas/class_diagram.png' "Diagramas")  
 ___
 ## Renuncias
 * Este es un ejemplo de inicio.  
@@ -32,4 +32,6 @@ MIT
 El código de este repositorio está cubierto por la licencia incluida.  
 ___
 ## Apoyo
-Ingrese un problema en el repositorio para cualquier pregunta o problema.  
+Ingrese un problema en el repositorio para cualquier pregunta o problema.
+
+.. image:: Diagramas/class_diagram.png
