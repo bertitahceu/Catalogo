@@ -21,7 +21,7 @@ ___
   **3.** Introduzca `java -jar catalogo.jar help` para mostrar la **ayuda**.  
 ___
 ## Diagrama
-![Diagrama UML](https://bitbucket.org/tomas_machin/catalogo/raw/src/master/Diagramas/class%20diagram.png)  
+![Diagrama UML](https://bitbucket.org/tomas_machin/catalogo/src/master/Diagramas/class_diagram.png)  
 ___
 ## Renuncias
 * Este es un ejemplo de inicio.  
