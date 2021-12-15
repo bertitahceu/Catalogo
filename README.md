@@ -21,7 +21,7 @@ ___
   **3.** Introduzca `java -jar catalogo.jar help` para mostrar la **ayuda**.  
 ___
 ## Diagrama
-![Diagrama UML](https://drive.google.com/file/d/1yrvHl0cXgoyF1VyrUXn5Heqflg5WieRl/view?usp=sharing)  
+![Diagrama UML](https://github.com/bdunogier/ez-js-sequence-diagram/raw/master/doc/ez-js-sequence-diagram.png)  
 ___
 ## Renuncias
 * Este es un ejemplo de inicio.  
