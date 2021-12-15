@@ -9,7 +9,7 @@
 ___
 ## Ejecute el ejemplo de incrustación de la aplicación HTML5 en una ventana de Java Swing
 
-1. Descargar una aplicacion para ejecutar la aplicacion (ej.Git)  
+**1.** Descargar una aplicacion para ejecutar la aplicacion (ej.Git)  
 2. Clonar este repositorio  
 3. Introduzca `make -jar` para generar un fichero jar y poder empezar a utilizar el programa.  
 ___
