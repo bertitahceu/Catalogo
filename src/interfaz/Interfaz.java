@@ -45,13 +45,7 @@ public class Interfaz{
 			while(sc.hasNext()){
 				String nombre = sc.next();
 				String str = sc.next();
-				try{	
-					float precio = Float.parseFloat(str);
-				} catch (NumberFormatException nfe){
-					System.out.println("Por favor introduzca un número como segunda ""palabra""");
-					sc.next();
-				}
-
+				float precio = Float.parseFloat(str);
 				String cantidad = sc.next();
 				int cant = Integer.parseInt(cantidad);
 				Comida comida = new Comida(nombre, precio, cant);
