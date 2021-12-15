@@ -22,11 +22,14 @@ ___
 ___
 ## Diagrama
 ![Diagrama UML]('/c/Users/machi/workspace/catalogo/Diagramas/class diagram.png' "Diagramas")  
+___
 ## Renuncias
 * Este es un ejemplo de inicio.  
 * Es posible que el repositorio no se mantenga de forma activa.  
+___
 ## Licencia
 MIT  
 El código de este repositorio está cubierto por la licencia incluida.  
+___
 ## Apoyo
 Ingrese un problema en el repositorio para cualquier pregunta o problema.  
