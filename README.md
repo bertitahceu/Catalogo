@@ -1,16 +1,14 @@
 # CATÁLOGO #
 
 ### __INTEGRANTES DEL GRUPO:__
-	
 #####	- __Tomás Machín__
 #####	- __Albeto Ruiz__
 #####	- __Alfredo Martinez__	
 #####	- __Francisco Rodriguez__
 ___
-
 ## Descripción general
 El siguiente repositorio contiene el código para la creación de un Catálogo.
-
+___
 ## Ejecute el ejemplo de incrustación de la aplicación HTML5 en una ventana de Java Swing
 
 **1.** Descargar una aplicacion para ejecutar la aplicacion. (ej.Git)  
@@ -22,7 +20,5 @@ ___
   **2.** Introduzca `java -jar catalogo.jar list` para mostrar el **catálogo**.  
   **3.** Introduzca `java -jar catalogo.jar help` para mostrar la **ayuda**.  
 ___
-
 ## Diagrama
-
 ![Diagrama UML]('/c/Users/machi/workspace/catalogo/Diagramas/class diagram.png' "Diagramas")
